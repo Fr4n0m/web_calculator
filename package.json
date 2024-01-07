@@ -1,0 +1,14 @@
+{
+  "name": "webcalculator",
+  "version": "1.0.0",
+  "description": "web calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Rodríguez",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
