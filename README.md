@@ -1,6 +1,10 @@
+<div align="center">
+
 # Calculadora con JavaScript y Tailwind CSS
 
 Esta es una calculadora básica desarrollada con HTML, CSS utilizando Tailwind, y JavaScript. La calculadora puede realizar las operaciones aritméticas básicas (+, -, \*, /) y también tiene una función de resetear. Además, cuenta con un botón para cambiar entre el modo claro y oscuro.
+
+</div>
 
 ## Características
 
@@ -46,7 +50,7 @@ Este proyecto es open-source y se aceptan contribuciones. Por favor, siéntase l
 
 Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para más detalles.
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 <div align="center">
 
