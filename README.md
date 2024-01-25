@@ -45,3 +45,57 @@ Este proyecto es open-source y se aceptan contribuciones. Por favor, siéntase l
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para más detalles.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<div align="center">
+
+# Calculator with JavaScript and Tailwind CSS
+
+This is a basic calculator developed with HTML, CSS using Tailwind, and JavaScript. The calculator can perform basic arithmetic operations (+, -, \*, /) and also includes a reset function. Additionally, it features a button to toggle between light and dark modes for a pleasant visual experience in low-light environments.
+
+</div>
+
+## Features
+
+- Input of numbers and operations using on-screen buttons
+- Display of operation results on the screen
+- Reset function to restart the calculator
+- **Dark mode for a visually comfortable experience in low-light environments**
+
+## Files
+
+- **index.html:** HTML file containing the structure of the calculator
+- **styles.css:** CSS file containing styles generated with Tailwind for the calculator
+- **script.js:** JavaScript file containing the functionality of the calculator
+
+## Installation
+
+No installation is required; simply open the index.html file in a web browser to use the calculator.
+
+## Usage
+
+1. Enter a number or a decimal point using the on-screen buttons.
+2. Select an operation (+, -, \*, /) using the on-screen buttons.
+3. Enter another number.
+4. Press the "=" button to see the result of the operation.
+5. Press the "Reset" button to restart the calculator.
+6. Press the "Toggle Dark Mode" button to switch between light and dark modes.
+
+## Development
+
+The following technologies were used for the development of this calculator:
+
+- HTML
+- CSS with Tailwind
+- JavaScript
+
+The MVC (Model-View-Controller) design pattern was employed to structure the code.
+
+## Contribution
+
+This project is open-source, and contributions are welcome. Feel free to fork the project and submit a pull request with any changes you'd like to make.
+
+## License
+
+This project is licensed under the MIT license. Refer to the LICENSE file for more details.
