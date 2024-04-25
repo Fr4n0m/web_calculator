@@ -6,6 +6,11 @@ Esta es una calculadora básica desarrollada con HTML, CSS utilizando Tailwind, 
 
 </div>
 
+<div align="center">
+  <img src="/preview_images/WebCalculator_lightMode.png" alt="Light mode">
+  <img src="/preview_images/WebCalculator_darkMode.png" alt="Dark mode">
+</div>
+
 ## Características
 
 - Ingreso de números y operaciones utilizando botones en pantalla
