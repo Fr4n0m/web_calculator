@@ -1,40 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# Calculadora con JavaScript y Tailwind CSS
 
-First, run the development server:
+Esta es una calculadora básica desarrollada con HTML, CSS utilizando Tailwind, y JavaScript. La calculadora puede realizar las operaciones aritméticas básicas (+, -, \*, /) y también tiene una función de resetear. Además, cuenta con un botón para cambiar entre el modo claro y oscuro.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  <img src="/preview_images/WebCalculator_lightMode.png" alt="Light mode">
+  <img src="/preview_images/WebCalculator_darkMode.png" alt="Dark mode">
+</div>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Características
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Ingreso de números y operaciones utilizando botones en pantalla
+- Resultado de las operaciones se muestra en pantalla
+- Función de resetear para reiniciar la calculadora
+- **Modo oscuro para una experiencia visual agradable en ambientes con poca luz**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Archivos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **index.html:** Archivo HTML que contiene la estructura de la calculadora
+- **styles.css:** Archivo CSS que contiene los estilos generados con Tailwind para la calculadora
+- **script.js:** Archivo JavaScript que contiene la funcionalidad de la calculadora
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+No es necesaria ninguna instalación, simplemente abra el archivo index.html en un navegador web para utilizar la calculadora.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Ingrese un número o punto utilizando los botones en pantalla
+2. Seleccione una operación (+, -, \*, /) utilizando los botones en pantalla
+3. Ingrese otro número
+4. Presione el botón "=" para ver el resultado de la operación
+5. Presione el botón "Reset" para reiniciar la calculadora
+6. Presione el botón "Toggle Dark Mode" para cambiar entre modo claro y oscuro
 
-## Deploy on Vercel
+## Desarrollo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para el desarrollo de esta calculadora se utilizaron las siguientes tecnologías:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- HTML
+- CSS con Tailwind
+- JavaScript
+
+Se utilizó el patrón de diseño MVC (Modelo-Vista-Controlador) para estructurar el código.
+
+## Contribución
+
+Este proyecto es open-source y se aceptan contribuciones. Por favor, siéntase libre de hacer un fork y enviar una pull request con cualquier cambio que desee realizar.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para más detalles.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<div align="center">
+
+# Calculator with JavaScript and Tailwind CSS
+
+This is a basic calculator developed with HTML, CSS using Tailwind, and JavaScript. The calculator can perform basic arithmetic operations (+, -, \*, /) and also includes a reset function. Additionally, it features a button to toggle between light and dark modes for a pleasant visual experience in low-light environments.
+
+</div>
+
+## Features
+
+- Input of numbers and operations using on-screen buttons
+- Display of operation results on the screen
+- Reset function to restart the calculator
+- **Dark mode for a visually comfortable experience in low-light environments**
+
+## Files
+
+- **index.html:** HTML file containing the structure of the calculator
+- **styles.css:** CSS file containing styles generated with Tailwind for the calculator
+- **script.js:** JavaScript file containing the functionality of the calculator
+
+## Installation
+
+No installation is required; simply open the index.html file in a web browser to use the calculator.
+
+## Usage
+
+1. Enter a number or a decimal point using the on-screen buttons.
+2. Select an operation (+, -, \*, /) using the on-screen buttons.
+3. Enter another number.
+4. Press the "=" button to see the result of the operation.
+5. Press the "Reset" button to restart the calculator.
+6. Press the "Toggle Dark Mode" button to switch between light and dark modes.
+
+## Development
+
+The following technologies were used for the development of this calculator:
+
+- HTML
+- CSS with Tailwind
+- JavaScript
+
+The MVC (Model-View-Controller) design pattern was employed to structure the code.
+
+## Contribution
+
+This project is open-source, and contributions are welcome. Feel free to fork the project and submit a pull request with any changes you'd like to make.
+
+## License
+
+This project is licensed under the MIT license. Refer to the LICENSE file for more details.
